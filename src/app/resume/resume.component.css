@@ -1,0 +1,29 @@
+body {font-family:Lato; font-size:13.5px; line-height:1.6;background-color:rgba(0, 0, 0, 0.05)}
+h1, h2, h3, h4, h5, h6 {font-family:Alegreya Sans SC; font-weight:bold;}
+h1{font-size:45.5px;text-transform:uppercase;}
+h2{font-size:18.5px;text-transform:uppercase;}
+@media (min-width: 768px) {
+h1{font-size:64px;}
+h2{font-size:21.5px;}
+}
+p{margin-bottom:0.5rem;}
+a:hover{text-decoration:none;}
+.container{
+  padding: 1.2cm;
+  margin: 1cm auto;
+}
+
+@media (max-width: 21cm) {
+  .container{
+    width: 100%;
+    max-width:100%;
+    height: auto;
+    padding: 2%;
+    margin:0;
+    border:0;
+    box-shadow: none;
+  }
+  img{max-height:85px;}
+}
+.thick{height:3px;}
+.light{color:rgba(0, 0, 0, 0.4)}
