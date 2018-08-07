@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { appRoutes } from './routes';
+import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -9,6 +11,7 @@ import { MarketingLinkComponent } from './marketingLink/marketingLink.component'
 import { FooterComponent } from './footer/footer.component';
 import { BlogComponent } from './blog/blog.component';
 import { ChatRoomComponent } from './chat-room/chat-room.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
    declarations: [
@@ -19,14 +22,15 @@ import { ChatRoomComponent } from './chat-room/chat-room.component';
       MarketingLinkComponent,
       FooterComponent,
       BlogComponent,
-      ChatRoomComponent
+      ChatRoomComponent,
+      ContactComponent
    ],
    imports: [
-      BrowserModule
-   ],
-   providers: [],
-   bootstrap: [
-      AppComponent
+      BrowserModule,
+      RouterModule.forRoot(appRoutes)
    ]
+   ,
+   providers: [],
+   bootstrap: [AppComponent],
 })
 export class AppModule { }
