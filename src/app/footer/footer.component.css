@@ -1,0 +1,11 @@
+
+footer {
+  text-align: center;
+}
+
+#footer-Nav {
+  display: inline-block;
+  float: none;
+  color: white;
+  padding-top: 15px;
+}

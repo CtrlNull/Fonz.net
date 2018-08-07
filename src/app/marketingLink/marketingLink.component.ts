@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./marketingLink.component.css']
 })
 export class MarketingLinkComponent implements OnInit {
+  bikeImagePath: string;
 
-  constructor() { }
+  constructor() {
+    this.bikeImagePath = '../assets/images/bike.jpg';
+  }
 
   ngOnInit() {
   }
