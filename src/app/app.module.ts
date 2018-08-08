@@ -29,11 +29,8 @@ import { UnderContructionComponent } from './under-contruction/under-contruction
    ],
    imports: [
       BrowserModule,
-      RouterModule.forRoot(appRoutes
-   ]
-})
-   ]
-   ,
+      RouterModule.forRoot(appRoutes)
+   ],
    providers: [],
    bootstrap: [AppComponent],
 })
