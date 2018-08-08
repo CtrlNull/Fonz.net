@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { BlogComponent } from './blog/blog.component';
 import { ChatRoomComponent } from './chat-room/chat-room.component';
 import { ContactComponent } from './contact/contact.component';
+import { UnderContructionComponent } from './under-contruction/under-contruction.component';
 
 @NgModule({
    declarations: [
@@ -23,11 +24,14 @@ import { ContactComponent } from './contact/contact.component';
       FooterComponent,
       BlogComponent,
       ChatRoomComponent,
-      ContactComponent
+      ContactComponent,
+      UnderContructionComponent
    ],
    imports: [
       BrowserModule,
-      RouterModule.forRoot(appRoutes)
+      RouterModule.forRoot(appRoutes
+   ]
+})
    ]
    ,
    providers: [],
